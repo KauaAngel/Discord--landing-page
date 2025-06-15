@@ -1,0 +1,331 @@
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  max-width: 2080px;
+}
+
+.Menu h1 {
+  font-family: "Luckiest Guy";
+  font-weight: lighter;
+  color: #ffffff;
+  margin: 0;
+  width: 380px;
+  text-align: center;
+  font-size: 56px;
+  letter-spacing: 2px;
+}
+.Menu p {
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 17px;
+  text-align: center;
+  color: #ffffff;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  background-image: url(/assets/images/Header\ Background.png);
+  background-size: cover;
+  width: 1fr;
+  height: 690px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.Menu {
+  align-self: center;
+  justify-items: center;
+  width: 850px;
+  gap: 20px;
+}
+.buttons {
+  display: flex;
+  align-self: center;
+  gap: 20px;
+}
+#btn-1 {
+  padding: 12px;
+  border-radius: 36px;
+  border: none;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+#btn-1:hover {
+  cursor: pointer;
+  background-color: rgb(185, 183, 183);
+}
+#btn-2 {
+  padding: 12px;
+  border-radius: 36px;
+  border: none;
+  color: white;
+  background-color: #23272a;
+  font-family: "Open Sans";
+  font-size: 16px;
+}
+#btn-2:hover {
+  cursor: pointer;
+  background-color: #36393b;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.section-1 {
+  display: flex;
+  width: 1110px;
+  height: 550px;
+  justify-content: center;
+  align-self: center;
+  gap: 15px;
+  padding: 30px;
+}
+.section-1 img {
+  width: 775px;
+  height: 527px;
+}
+.menu-2 {
+  display: flex;
+  flex-direction: column;
+}
+.menu-2 h2 {
+  width: 416px;
+  font-size: 50px;
+  font-weight: 800;
+  color: #23272a;
+  margin: 0;
+  margin-top: 9px;
+}
+h2 {
+  font-family: "Open Sans";
+}
+
+.menu-2 p {
+  width: 348px;
+  font-size: 19px;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+
+.section-2 {
+  display: flex;
+  padding: 30px;
+  width: 1839px;
+  height: 460px;
+  align-self: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: #f6f6f6;
+}
+.menu-3 h2 {
+  width: 416px;
+  font-size: 50px;
+  font-weight: 800;
+  color: #23272a;
+}
+.menu-3 p {
+  width: 348px;
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-weight: 500;
+}
+.section-2 img {
+  width: 700px;
+}
+.section-3 {
+  display: flex;
+  width: 1110px;
+  height: 550px;
+  justify-content: center;
+  align-self: center;
+  gap: 15px;
+  padding: 30px;
+}
+.section-3 img {
+  width: 900px;
+  height: 510px;
+}
+
+.menu-4 {
+  width: 416px;
+  font-size: 50px;
+  color: #23272a;
+  margin-top: 50px;
+}
+.menu-4 h2 {
+  width: 416px;
+  font-size: 50px;
+  font-weight: 800;
+  color: #23272a;
+}
+.menu-4 p {
+  width: 348px;
+  font-size: 19px;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+.section-4 {
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+  height: 750px;
+  justify-content: center;
+  align-self: center;
+  align-items: center;
+  gap: 15px;
+  padding: 30px;
+  background-color: #f6f6f6;
+}
+.section-4 img {
+  width: 784px;
+  height: 508px;
+}
+.menu-5 {
+  margin-top: 50px;
+  justify-items: center;
+}
+.menu-5 h2 {
+  width: 640px;
+  letter-spacing: 2px;
+  font-weight: lighter;
+  text-align: center;
+  font-family: "Luckiest Guy";
+  font-size: 40px;
+  font-weight: 800;
+  color: #23272a;
+}
+.menu-5 p {
+  width: 948px;
+  font-size: 19px;
+  font-family: "Open Sans";
+  font-weight: 400;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #23272a;
+  height: 154px;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 390px) and (max-width: 450px) {
+  body {
+    max-width: 450px;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    height: 500px;
+    background-position: -600px;
+  }
+  .Menu h1 {
+    text-align: left;
+    width: 40%;
+    font-size: 35px;
+  }
+  .Menu p {
+    text-align: left;
+    width: 40%;
+    font-weight: lighter;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  #btn-1 {
+    width: 300px;
+    padding: 15px;
+  }
+  #btn-2 {
+    width: 300px;
+    padding: 13px;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+  }
+  .section-1 img {
+    width: 431px;
+    align-self: center;
+  }
+  .menu-2 h2 {
+    align-self: center;
+    font-size: 25px;
+    width: 380px;
+    margin-left: 25px;
+  }
+  .menu-2 p {
+    align-self: center;
+    font-size: 16px;
+    width: 380px;
+    margin-left: 20px;
+  }
+  .section-2 {
+    width: 390px;
+    flex-direction: column-reverse;
+  }
+  .section-2 img {
+    width: 380px;
+    align-self: center;
+  }
+  .menu-3 {
+    justify-items: center;
+  }
+  .menu-3 h2 {
+    align-self: center;
+    font-size: 25px;
+    width: 380px;
+  }
+  .menu-3 p {
+    align-self: center;
+    font-size: 16px;
+    width: 380px;
+  }
+  .section-3 {
+    width: 390px;
+  }
+  .section-3 img {
+    width: 380px;
+    align-self: center;
+  }
+  .menu-4 h2 {
+    font-size: 23px;
+    width: 380px;
+    margin: 11px;
+  }
+
+  .menu-4 p {
+    align-self: center;
+    margin-left: 11px;
+    font-size: 16px;
+    width: 370px;
+  }
+  .section-4 {
+    width: 390px;
+  }
+  .section-4 img {
+    width: 380px;
+  }
+  .menu-5 h2 {
+    font-size: 33px;
+    text-align: left;
+    width: 360px;
+    margin: 11px;
+  }
+  .menu-5 p {
+    align-self: center;
+    margin-left: 11px;
+    font-size: 16px;
+    width: 370px;
+  }
+}
+a {
+  text-decoration: none;
+  color: #23272a;
+}
